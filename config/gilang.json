@@ -1,0 +1,22 @@
+{
+    "name": "HP Gilang",
+    "delay_adjustment": 0.4,
+    "press_qris_button": [640, 2200],
+    "press_qris_button_delay": 2,
+    "press_input_image": [805, 205],
+    "press_input_image_delay": 2.1,
+    "choose_image": [197, 1125],
+    "choose_image_delay": 2.5,
+    "press_next_button": [552, 2192],
+    "press_next_button_delay": 2.1,
+    "pin_taps": [
+        [185, 1547],
+        [901, 1541],
+        [541, 2191],
+        [178, 1538],
+        [539, 2192],
+        [539, 1751]
+    ],
+    "pin_input_delay": 5,
+    "press_close_button": [80, 165]
+}
