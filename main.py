@@ -28,7 +28,7 @@ class AndroidDeviceController:
         """
         self.client = AdbClient(host=host, port=port)
         self.device = self.get_device(device_index)
-
+        
     def get_device(self, device_index=0):
         """
         Retrieves the first connected device.
@@ -50,7 +50,7 @@ class AndroidDeviceController:
         Pushes an image from the local machine to the Android device's internal storage.
         """
         try:
-            subprocess.run(["adb", "push", local_path, remote_path], check=True)
+            subprocess.run(["adb", "-s", self.device.serial, "push", local_path, remote_path], check=True)
             log(f"Image {local_path} sent to {remote_path}", Fore.CYAN)
         except subprocess.CalledProcessError as e:
             log(f"Error pushing image: {e}", Fore.RED)
