@@ -202,6 +202,7 @@ async def main():
 
             for pin_coords in remote_config['pin_taps']:
                 ac.tap(*pin_coords)
+                time.sleep(0.15)
 
             sleep_with_delay(remote_config['delay_adjustment'] + remote_config['pin_input_delay'])
 
