@@ -1,0 +1,22 @@
+{
+    "name": "HP Dhanu",
+    "delay_adjustment": 0.4,
+    "press_qris_button": [527, 2179],
+    "press_qris_button_delay": 2,
+    "press_input_image": [800, 172],
+    "press_input_image_delay": 4,
+    "choose_image": [196, 1392],
+    "choose_image_delay": 4,
+    "press_next_button": [549, 2172],
+    "press_next_button_delay": 2.4,
+    "pin_taps": [
+        [533, 1519],
+        [180, 1523],
+        [180, 1950],
+        [532, 1945],
+        [900, 1523],
+        [900, 1722]
+    ],
+    "pin_input_delay": 5.3,
+    "press_close_button": [96, 143]
+}

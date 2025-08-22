@@ -1,0 +1,22 @@
+{
+    "name": "HP AGUS",
+    "delay_adjustment": 0.4,
+    "press_qris_button": [540, 2105],
+    "press_qris_button_delay": 2,
+    "press_input_image": [800, 200],
+    "press_input_image_delay": 2.1,
+    "choose_image": [160, 1115],
+    "choose_image_delay": 2.2,
+    "press_next_button": [540, 2100],
+    "press_next_button_delay": 2.1,
+    "pin_taps": [
+        [188, 1457],
+        [180, 1660],
+        [188, 1457],
+        [180, 1660],
+        [188, 1457],
+        [180, 1660]
+    ],
+    "pin_input_delay": 4.7,
+    "press_close_button": [80, 173]
+}
